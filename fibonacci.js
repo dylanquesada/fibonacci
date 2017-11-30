@@ -54,4 +54,16 @@ function fibonacci(){
 	}
 }
 
-fibonacci();
+userFibonacci();
+
+function userFibonacci(){
+	var fibonacciArray = [userInput()];
+	return fibonacciArray[0];
+}
+
+function runUserFibonacci(){
+	var fibonacciArray = userFibonacci();
+	for (var i = 0; i < 10; i++) {
+		[i]
+	}
+}
